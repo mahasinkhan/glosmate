@@ -355,3 +355,10 @@ body {
   pointer-events: none;
   mix-blend-mode: overlay;
 }
+/* Allow eyebrow to be center-justified for centered section headers */
+.eyebrow.justify-center {
+  justify-content: center;
+}
+.eyebrow.justify-center::before {
+  /* bar stays */
+}

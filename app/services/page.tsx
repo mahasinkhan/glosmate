@@ -1,11 +1,26 @@
 import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
-import Features from "@/components/sections/Features";
+import ServicesHero from "@/components/services/ServicesHero";
+import ServicesProcess from "@/components/services/ServicesProcess";
+import ServicesDetail from "@/components/services/ServicesDetail";
+import ServicesTech from "@/components/services/ServicesTech";
+import ServicesPricing from "@/components/services/ServicesPricing";
+import ServicesTestimonial from "@/components/services/ServicesTestimonial";
+import ServicesFAQ from "@/components/services/ServicesFAQ";
+import ServicesCTA from "@/components/services/ServicesCTA";
+
 export default function ServicesPage() {
   return (
-    <main>
+    <main style={{ background: "#ffffff" }}>
       <Navbar />
-      <div className="pt-16"><Features /></div>
+      <ServicesHero />
+      <ServicesProcess />
+      <ServicesDetail />
+      <ServicesTech />
+      <ServicesPricing />
+      <ServicesTestimonial />
+      <ServicesFAQ />
+      <ServicesCTA />
       <Footer />
     </main>
   );
